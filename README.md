@@ -1,1 +1,1 @@
-# cuajo-slider
+# Cuajo Slider
