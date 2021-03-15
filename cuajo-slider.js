@@ -33,7 +33,7 @@ function Slider(slider) {
         if (direction === 'back') {
             [prev, current, next] = [prev.previousElementSibling || slides.lastElementChild, prev, current];
         } else {
-            [prev, current, next] = [current, next, next.nextElementSibling || slides.nextElementChild];
+            [prev, current, next] = [current, next, next.nextElementSibling || slides.firstElementChild];
         }
 
         addClasses();
