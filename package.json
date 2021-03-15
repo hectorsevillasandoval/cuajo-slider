@@ -1,0 +1,23 @@
+{
+    "name": "cuajo-slider",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "parcel index.html",
+        "build": "parcel build index.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/barcadictni/cuajo-slider.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/barcadictni/cuajo-slider/issues"
+    },
+    "homepage": "https://github.com/barcadictni/cuajo-slider#readme",
+    "devDependencies": {
+        "parcel-bundler": "^1.12.4"
+    }
+}
